@@ -1,0 +1,44 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fdf6e3;
+  color: #3e2f1c;
+  padding: 2rem;
+  text-align: center;
+}
+fieldset {
+  border: 3px double #8b6f47;
+  padding: 1rem;
+  background-color: #fff9f0;
+  margin-bottom: 2rem;
+  column-count: auto;
+  column-width: 200px; /* Puoi modificare la larghezza delle colonne */
+  column-gap: 2rem;
+  max-height: 80vh; /* Imposta un'altezza massima */
+  overflow-y: auto;
+}
+
+fieldset label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #4e3824;
+}
+
+input[type="radio"] {
+  margin-right: 0.5rem;
+  accent-color: #a67c52;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #5a3e2b;
+  text-shadow: 1px 1px #e5d7c0;
+}
+
+#seleccionada {
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #5c3c1d;
+}
